@@ -38,11 +38,11 @@ public class PropertySourceDemo {
         return environment.getProperty("gmail.password");
     }
 
-    public String getAppName() {
-        return environment.getProperty("app.name");
-    }
-
-    public String getAppDesc() {
-        return environment.getProperty("app.description");
-    }
+//    public String getAppName() {
+//        return environment.getProperty("app.name");
+//    }
+//
+//    public String getAppDesc() {
+//        return environment.getProperty("app.description");
+//    }
 }

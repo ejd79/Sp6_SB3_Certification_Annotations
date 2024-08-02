@@ -26,6 +26,7 @@
 - is used with Configuration classes
 
 > @ConfigurationProperties
+> @Nested Object
 
 ### Java Bean Configuration
 - The @Bean annotation tells Spring IoC Container to manage VegPizza object 

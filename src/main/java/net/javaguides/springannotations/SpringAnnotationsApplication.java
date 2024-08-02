@@ -50,8 +50,8 @@ public class SpringAnnotationsApplication {
 		System.out.println(propertySourceDemo.getEmail());
 		System.out.println(propertySourceDemo.getHost());
 		System.out.println(propertySourceDemo.getPassword());
-		System.out.println(propertySourceDemo.getAppName());
-		System.out.println(propertySourceDemo.getAppDesc());
+//		System.out.println(propertySourceDemo.getAppName());
+//		System.out.println(propertySourceDemo.getAppDesc());
 
 		AppPropertiesDemo appPropertiesDemo = (AppPropertiesDemo) context.getBean("appPropertiesDemo");
 		appPropertiesDemo.display();

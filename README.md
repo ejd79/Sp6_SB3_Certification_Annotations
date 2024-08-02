@@ -37,7 +37,22 @@
 > lo que queremos es implementar un Resful Service, usar @RestController
 
 > @RequestMapping:
-> > in base URI
+>> in base URI
+ 
+> @PathVariable annotation used on a method argument to bind the value o a URI template variable
+> to a method argument
+
+> @RequestParam to extract query parameters from the request:  
+> // build rest API to handle query parameters  
+> // http://...../query?firstname=Erick&lastname=Jeronimo  
+> @GetMapping("/student/query)  
+> public Student studentQueryParam(
+>      @RequestParam(name="firstName") String firstName,  
+>      @RequestParam(name="lastName") String lastName) {  
+>  return new Student(firstName, lastName);
+> }
+
+
 ### Java Bean Configuration
 - The @Bean annotation tells Spring IoC Container to manage VegPizza object 
 - Inject Bean Object 

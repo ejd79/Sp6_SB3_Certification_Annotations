@@ -19,5 +19,7 @@ public class AppPropertiesDemo {
         System.out.println(appProperties.getSecurity().getPassword());
         System.out.println(appProperties.getSecurity().getRoles());
         System.out.println(appProperties.getSecurity().isEnabled());
+
+        System.out.println(appProperties.getSecurity().getPermissions());
     }
 }

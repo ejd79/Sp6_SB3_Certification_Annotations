@@ -25,9 +25,19 @@
 > @PropertySource and @PropertySources to provide properties file to Spring Environment
 - is used with Configuration classes
 
-> @ConfigurationProperties
-> @Nested Object
+> @ConfigurationProperties  
+>> top level application properties 
+>> Nested object properties 
+>> Map properties
 
+> @Controller, and @RequestMapping y @ResponseBody
+> @RestController ....substitutes @Controller and @ResponseBody
+
+> **NOTE**: Cuando se quiera que el servicio devuelva una Interfaz usar @Controller. Si 
+> lo que queremos es implementar un Resful Service, usar @RestController
+
+> @RequestMapping:
+> > in base URI
 ### Java Bean Configuration
 - The @Bean annotation tells Spring IoC Container to manage VegPizza object 
 - Inject Bean Object 

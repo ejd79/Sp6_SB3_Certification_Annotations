@@ -25,6 +25,8 @@
 > @PropertySource and @PropertySources to provide properties file to Spring Environment
 - is used with Configuration classes
 
+> @ConfigurationProperties
+
 ### Java Bean Configuration
 - The @Bean annotation tells Spring IoC Container to manage VegPizza object 
 - Inject Bean Object 
